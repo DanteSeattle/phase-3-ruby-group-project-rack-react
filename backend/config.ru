@@ -1,4 +1,5 @@
 require 'rack/cors'
+require './app/application.rb'
 require_relative "./config/environment.rb"
 
 use Rack::Cors do

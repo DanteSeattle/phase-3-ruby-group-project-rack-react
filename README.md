@@ -24,7 +24,7 @@ routes for your project!
 
 **Start your server with:**
 
-```sh
+```sh 
 shotgun --port=9292
 ```
 

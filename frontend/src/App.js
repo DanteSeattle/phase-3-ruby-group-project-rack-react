@@ -78,18 +78,14 @@ class App extends React.Component {
       })
     }
 
-    displayWinner = (auctionId) => {
-      let bids = this.state.bids.filter(auction => auction.auction_id === auctionId)
-      return (bids)
-    }
+
 
   render(){
     return(
       <div>
         <AuctionList auctions = {this.state.auctions} 
         createBid = {this.createBid}
-        endAuction = {this.endAuction}
-        displayWinner = {this.displayWinner}/>
+        endAuction = {this.endAuction}/>
       </div>
     )
    }

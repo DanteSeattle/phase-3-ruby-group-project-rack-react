@@ -20,7 +20,6 @@ class AuctionList extends React.Component {
                     open = {auction.open}
                     createBid = {this.props.createBid}
                     endAuction = {this.props.endAuction}
-                    displayWinner = {this.props.displayWinner}
                 />)}
             
             </div>
